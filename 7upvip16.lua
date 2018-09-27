@@ -1068,6 +1068,22 @@ function APer()
   gg.clearResults()
   gg.searchNumber("0.53446006775F;-1.68741035461F:501", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("-1.68741035461", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(995)
+  gg.editAll("9999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(995)
+  gg.editAll("9999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Antenna Perfect Actived!")
+end
+function APerBU()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.clearResults()
+  gg.searchNumber("0.53446006775F;-1.68741035461F:501", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1.68741035461", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(1995)
   gg.editAll("19995", gg.TYPE_FLOAT)
   gg.clearResults()
@@ -1370,7 +1386,7 @@ function AllIn()
 end
 function AllInfo()
   gg.alert([[
-📌 All In One :
+ðŸ“Œ All In One :
 
 Auto activate the recommended features with good functions. 
 You can choose your favorite hack !
@@ -1381,36 +1397,36 @@ PS : You must activate this function manually in game.
 - No Recoil
 
 
-📌 Functions :
+ðŸ“Œ Functions :
 
-📂 Headshot Menu :
-🔹 Lobby HS
+ðŸ“‚ Headshot Menu :
+ðŸ”¹ Lobby HS
        - AimBot Head
 	   
-🔹 Landing HS
+ðŸ”¹ Landing HS
        - No Recoil	
        - Headshot Hard	
        - Antenna Perfect
        - No Grass
 
-📂 Medium Menu :
-🔹 Lobby Medium
+ðŸ“‚ Medium Menu :
+ðŸ”¹ Lobby Medium
        - AimBot Medium
        - Magic Bullet v1
        - Bullet Tracking
 
-🔹 Landing Medium
+ðŸ”¹ Landing Medium
        - No Recoil
        - Antenna Perfect
        - No Grass
 								  
-📂 Hard Menu :
-🔹 Lobby Hard
+ðŸ“‚ Hard Menu :
+ðŸ”¹ Lobby Hard
        - AimBot Hard
        - Magic Bullet Super
        - Bullet Tracking
 	   
-🔹 Landing Hard
+ðŸ”¹ Landing Hard
        - No Recoil
        - Antenna Perfect
        - No Grass]])
