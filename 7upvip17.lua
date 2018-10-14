@@ -2,7 +2,7 @@ gg.alert(os.date([[
 Today : %Y/%m/%d Time : %H:%M:%S
 Script will auto update from server.
 
-UPDATE 1.7.2
+UPDATE 1.7.4
 Check changelog for more information.
 
 Youtube : 7uP Network]]))
@@ -18,7 +18,7 @@ function HOME()
   }, nil, [[
 Game : PUBG Mobile 0.8.5 
 Script : 7uP Network
-Version : 1.7.2
+Version : 1.7.4
 Class : VIP]])
   if SevenUP == 1 then
     Lob()
@@ -107,16 +107,16 @@ function Undec()
 end
 function Abc()
   gg.clearResults()
-  gg.searchNumber("3.5;1;0.5;200;20::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("999", gg.TYPE_FLOAT)
+  gg.searchNumber("3.5;1;0.5;200;20::", 16, false, 536870912, 0, -1)
+  gg.searchNumber("1", 16, false, 536870912, 0, -1)
+  gg.getResults(600)
+  gg.editAll("999", 16)
   gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("-88.82363891602F;15.0F;1", gg.TYPE_FLOAT)
-  gg.searchNumber("1", gg.TYPE_FLOAT)
-  gg.getResults(1000)
-  gg.editAll("20000000000000", gg.TYPE_FLOAT)
+  gg.setRanges(32)
+  gg.searchNumber("-88.82363891602F;15.0F;1", 16)
+  gg.searchNumber("1", 16)
+  gg.getResults(2000)
+  gg.editAll("20000000000000", 16)
   gg.clearResults()
   gg.toast("AimBot Crazy Actived!")
 end
@@ -349,7 +349,8 @@ function Sc()
 end
 function Lan()
   SevenUP3 = gg.multiChoice({
-    "\240\159\147\130 Wallhack + Color",
+    "\240\159\147\130 Anti Report",
+	"\240\159\147\130 Wallhack + Color",
     "\240\159\147\130 Weapon + Antena",
     "\240\159\147\130 Headshot",
     "\240\159\147\130 Lift Sit",
@@ -358,22 +359,35 @@ function Lan()
   if SevenUP3 == nil then
   else
     if SevenUP3[1] == true then
+      Ar()
+    end
+	if SevenUP3[2] == true then
       WhCol()
     end
-    if SevenUP3[2] == true then
+    if SevenUP3[3] == true then
       WeaAnt()
     end
-    if SevenUP3[3] == true then
+    if SevenUP3[4] == true then
       Head()
     end
-    if SevenUP3[4] == true then
+    if SevenUP3[5] == true then
       Lifs()
     end
-    if SevenUP3[5] == true then
+    if SevenUP3[6] == true then
       HOME()
     end
   end
   sevenupnetwork = -1
+end
+function Ar()
+  gg.clearResults()
+  gg.setRanges(131072)
+  gg.clearResults()
+  gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", 16, false, 536870912, 0, -1)
+  gg.clearResults()
+  gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", 16, false, 536870912, 0, -1)
+  gg.clearResults()
+  gg.alert("Anti Report Actived!")
 end
 function Lifs()
   gg.alert("Don't use God Eyes 1 & God Eyes 2 at the same time.")
@@ -611,16 +625,20 @@ end
 function Whuni1()
   gg.clearResults()
   gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("65,536D;1.8945555e-40F;2.8130226e-40F;5.8013756e-42F;3.7615819e-37F;2.0F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(30)
+  gg.getResults(3)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("256D;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(30)
-  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.getResults(3)
+  gg.editAll("130", gg.TYPE_FLOAT)
   gg.clearResults()
+  gg.searchNumber("200,866D; 2.718519e-43F; 3.7615819e-37F;2.0F; -1.0F; 1.0F; -127.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(3)
+  gg.editAll("120", gg.TYPE_FLOAT)
   gg.toast("Wallhack Universal 1 Snapdragon Actived!")
 end
 function Whuni2()
@@ -947,14 +965,19 @@ end
 function Whs636()
   gg.clearResults()
   gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(30)
+  gg.searchNumber("65,536D;1.8945555e-40F;2.8130226e-40F;5.8013756e-42F;3.7615819e-37F;2.0F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(3)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(30)
+  gg.searchNumber("256D;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(3)
+  gg.editAll("130", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("200,866D; 2.718519e-43F; 3.7615819e-37F;2.0F; -1.0F; 1.0F; -127.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(3)
   gg.editAll("120", gg.TYPE_FLOAT)
   gg.toast("Wallhack SD 636 Actived!")
 end
@@ -1236,22 +1259,19 @@ function Hsc()
 end
 function APer()
   gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.setRanges(32)
+  gg.searchNumber("88.50576019287F;87.27782440186F;1F::50", 16, false, 536870912, 0, -1)
+  gg.getResults(7)
+  gg.editAll("1.96875", 16)
   gg.clearResults()
-  gg.searchNumber("0.53446006775F;-1.68741035461F:501", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("-1.68741035461", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1995)
-  gg.editAll("19995", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-  gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1995)
-  gg.editAll("19995", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.searchNumber("18.38613319397F;0.53447723389F;3.42665576935F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("18.38613319397;0.53447723389;3.42665576935", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.96875F;1.96875F;-100.91194152832;1F::50", 16, false, 536870912, 0, -1)
+  gg.searchNumber("1", 16, false, 536870912, 0, -1)
+  gg.getResults(1)
+  gg.editAll("999", 16)
+  gg.searchNumber("18.38613319397F;0.53447723389F;3.42665576935F", 16, false, 536870912, 0, -1)
+  gg.searchNumber("18.38613319397;0.53447723389;3.42665576935", 16, false, 536870912, 0, -1)
   gg.getResults(3)
-  gg.editAll("26666", gg.TYPE_FLOAT)
+  gg.editAll("399999", 16)
   gg.toast("Antenna Perfect Actived!")
 end
 function ABul()
@@ -2060,12 +2080,10 @@ function Chl()
   gg.alert([[
 📌 Changelog :
 
-version 1.7.2
-- Added AimBot Crazy
-- Added Black Sky Emulator
-- Added Headshot Crazy
-- Fixed WH 410-425
-
+version 1.7.4
+- Fix Antena Perfect
+- Fix AimBot Crazy (All Device)
+- Added Anti Report
 
 SAFE FEATURE (SANHOK) :
 - Antena Perfect
