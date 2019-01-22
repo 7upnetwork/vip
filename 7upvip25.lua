@@ -467,9 +467,8 @@ function WhCol()
     "\240\159\148\185 Body Red",
     "\240\159\148\185 Body Mix",
     "\240\159\148\185 Body Purple\n \227\128\152Snapdragon 425\227\128\153",
-    "\240\159\148\185 Body Red\n \227\128\152Snapdragon 425\227\128\153",
     "\240\159\148\185 Body Pink\n \227\128\152Snapdragon 425\227\128\153",
-    "\240\159\148\185 Body Yellow\n \227\128\152Snapdragon 425\227\128\153",
+    "\240\159\148\185 Body White\n \227\128\152Snapdragon 425\227\128\153",
     "\240\159\148\185 Body Green\n \227\128\152Snapdragon 425\227\128\153",
     "\240\159\148\185 Body White\n \227\128\152Mediatek\227\128\153",
     "\240\159\148\185 Body Blue\n \227\128\152Mediatek\227\128\153",
@@ -557,27 +556,24 @@ function WhCol()
     Pur4()
   end
   if WHC[28] == true then
-    Red4()
-  end
-  if WHC[29] == true then
     Pin4()
   end
-  if WHC[30] == true then
+  if WHC[29] == true then
     Yel4()
   end
-  if WHC[31] == true then
+  if WHC[30] == true then
     Gre4()
   end
-  if WHC[32] == true then
+  if WHC[31] == true then
     MtkW()
   end
-  if WHC[33] == true then
+  if WHC[32] == true then
     MtkB()
   end
-  if WHC[34] == true then
+  if WHC[33] == true then
     Lan()
   end
-  if WHC[35] == true then
+  if WHC[34] == true then
     Lan()
   end
   sevenupnetwork = -1
@@ -1123,26 +1119,6 @@ function Pur4()
   gg.editAll("9999", gg.PROT_EXEC, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
   gg.toast("Purple Color SD 425 Actived!")
 end
-function Red4()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("790,580;856,128;856,130:17", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("856,128", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1)
-  gg.editAll("856138", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("856,128;856,130;393,222:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("856,128", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1)
-  gg.editAll("856138", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.searchNumber("196,610;1,280;196,608:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("196,608", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(2)
-  gg.editAll("9999", gg.TYPE_DWORD)
-  gg.toast("Red Color SD 425 Actived!")
-end
 function Pin4()
   gg.clearResults()
   gg.setRanges(gg.REGION_BAD)
@@ -1175,7 +1151,7 @@ function Yel4()
   gg.searchNumber("196,608", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(2)
   gg.editAll("9999", gg.TYPE_DWORD)
-  gg.toast("Yellow Color SD 425 Actived!")
+  gg.toast("White Color SD 425 Actived!")
 end
 function Gre4()
   gg.clearResults()
