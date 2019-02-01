@@ -192,15 +192,15 @@ function Abans()
   }, nil, "\226\154\153\239\184\143 Anti Banned Menu")
   if AntiBan == nil then
   else
-    if AntiBan[1] == true then
-      ABan10()
-    end
-    if AntiBan[2] == true then
-      ARep()
-    end
-    if AntiBan[3] == true then
-      HOME()
-    end
+  if AntiBan == 1 then
+    ABan10()
+  end
+  if AntiBan == 2 then
+    ARep()
+  end
+  if AntiBan == 3 then
+    HOME()
+  end
   end
   sevenupnetwork = -1
 end
