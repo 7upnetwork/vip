@@ -628,9 +628,8 @@ function WhCol()
   if WHC[33] == true then
     HOME()
     end
+	sevenupnetwork = -1
   end
-  sevenupnetwork = -1
-end
 function Whhdr()
   gg.clearResults()
   gg.setRanges(gg.REGION_BAD)
