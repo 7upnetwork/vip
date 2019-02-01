@@ -75,7 +75,7 @@ function HOME()
   }, nil, [[
 Game : PUBG Mobile 0.10.0
 Script : 7uP Network
-Version : 2.7
+Version : 2.8
 Class : VIP]])
   if SevenUP == 1 then
     Abans()
