@@ -103,8 +103,8 @@ function WeaAnt()
     "\240\159\148\185 Headshot 80%\n \227\128\152Landing - Every\227\128\153",
     "\240\159\148\185 Bullet Tracking\n \227\128\152Landing - Every\227\128\153",
     "\240\159\148\185 Magic Bullet (60% Safe)\n \227\128\152Landing - Every\227\128\153",
-    "\240\159\148\185 No Recoil V1\n \227\128\152Landing - Every\227\128\153",
-    "\240\159\148\185 No Recoil V2 (AimBot)\n \227\128\152Landing - Every\227\128\153",
+    "\240\159\148\185 No Recoil V1\n \227\128\152Lobby - Every\227\128\153",
+    "\240\159\148\185 No Recoil V2 (Pick Gun)\n \227\128\152Landing - Every\227\128\153",
 	"\240\159\148\185 No Recoil V3 (All Gun)\n \227\128\152Lobby - Every\227\128\153",
     "\240\159\148\185 Small Crosshair\n \227\128\152Landing\227\128\153",
     "\240\159\148\185 Antena Perfect [V1]",
@@ -277,13 +277,11 @@ function ABan10()
   gg.getResults(10)
   gg.editAll("9", gg.TYPE_DWORD)
   gg.clearResults()
-  gg.clearResults()
   gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("1,232,364,871;1,231,974,243", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1,232,364,871;1,231,974,243", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
+  gg.searchNumber("1954047316;1970037078", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1954047316;1970037078", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
   gg.editAll("0", gg.TYPE_DWORD)
-  gg.clearResults()
   gg.toast("AntiBan 10Min Actived!")
   gg.clearResults()
 end
@@ -404,17 +402,15 @@ end
 function Nr()
   gg.clearResults()
   gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("1,084,227,584D;1D;0.64999997616F;1.2520827e-32F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1.2520827e-32", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.5584387e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
-  gg.editAll("1.4012985e-43", gg.TYPE_FLOAT)
+  gg.editAll("0", gg.TYPE_FLOAT)
   gg.clearResults()
   gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("0.2~0.3;53;30;1::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("0.2~0.3;1::", gg.TYPE_FLOAT)
-  gg.getResults(200)
-  gg.editAll("1.4012985e-45", gg.TYPE_FLOAT)
-  gg.clearResults()
+  gg.searchNumber("1D;0.05000000075F;0.10000000149F;0.55000001192F;9.5F;15.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(800)
+  gg.editAll("0", gg.TYPE_DWORD)
   gg.toast("No Recoil Actived!")
 end
 function Nr2()
@@ -424,8 +420,7 @@ function Nr2()
   gg.searchNumber("176293393", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.editAll("0", gg.TYPE_DWORD)
-  gg.toast("No Recoil v2 (On AimBot) Actived!")
-  gg.setVisible(false)
+  gg.toast("No Recoil v2 Actived!")
 end
 function Nr3()
   gg.clearResults()
