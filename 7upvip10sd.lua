@@ -32,10 +32,10 @@ function HOME()
 SevenUP = gg.multiChoice({
 "\240\159\147\142 Speed 400Km/H",
 "\240\159\147\142 Speed Up + 350Km/H\n \227\128\152Mini Boost\227\128\153",
-"\240\159\147\140 Speed Up + 350Km/H\n \227\128\152Nitro\227\128\153",
+"\240\159\147\142 Speed Up + 350Km/H\n \227\128\152Nitro\227\128\153",
 "\240\159\147\142 Drift Nitro X2",
 "\240\159\147\142 Drift Nitro Full",
-"\240\159\147\140 Lock CCW",
+"\240\159\147\142 Lock CCW",
 "\240\159\154\170 EXIT"
 }, nil, [[
 Game : Speed Drifters
