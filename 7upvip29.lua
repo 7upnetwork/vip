@@ -5,12 +5,27 @@ Script will auto update from server.
 Youtube : 7uP Network]]))
 function BypassUP()
 gg.toast("\231\185\158\233\129\142")
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
 gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
 gg.clearResults()
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
 gg.clearResults()
-gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
 gg.toast("TAKE YOUR OWN RISK !")
 gg.setVisible(false)
 end
@@ -68,7 +83,7 @@ SevenUP2 = gg.multiChoice({
 "\240\159\148\185 Magic Bullet (60% Safe)\n \227\128\152Landing - Every\227\128\153",
 "\240\159\148\185 No Recoil V1\n \227\128\152Lobby - Every\227\128\153",
 "\240\159\148\185 No Recoil V2 (Pick Gun)\n \227\128\152Landing - Every\227\128\153",
-	"\240\159\148\185 No Recoil V3 (All Gun)\n \227\128\152Lobby - Every\227\128\153",
+"\240\159\148\185 No Recoil V3 (All Gun)\n \227\128\152Lobby - Every\227\128\153",
 "\240\159\148\185 Small Crosshair\n \227\128\152Landing\227\128\153",
 "\240\159\148\185 Antena Perfect [V1]",
 "\240\159\148\185 Antena Perfect [V2]",
