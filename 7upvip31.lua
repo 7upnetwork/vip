@@ -6,15 +6,7 @@ Youtube : 7uP Network]]))
 function BypassUP()
 gg.toast("\231\185\158\233\129\142")
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.clearResults()
-gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
 gg.clearResults()
 gg.toast("TAKE YOUR OWN RISK !")
 gg.setVisible(false)
@@ -42,7 +34,7 @@ SevenUP = gg.choice({
 }, nil, [[
 Game : PUBG Mobile 0.12.0
 Script : 7uP Network
-Version : 3.0
+Version : 3.1
 Class : VIP]])
 if SevenUP == 1 then
 WhCol()
