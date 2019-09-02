@@ -1,0 +1,64 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+black='\033[1;30m'
+red='\033[1;31m'
+green='\033[1;32m'
+yellow='\033[1;33m'
+blue='\033[1;34m'
+purple='\033[1;35m'
+cyan='\033[1;36m'
+white='\033[1;37m'
+
+
+echo -e $blue"   _______    ___               __  ";
+echo -e $blue"  / __/ _ )  / _ \___ ___ _____/ /_ ";
+echo -e $blue" / _// _ |  / , _/ -_) _  / __/ __/ ";
+echo -e $blue"/_/ /____/ /_/|_|\__/\_,_/\__/\__/ ";
+echo -e $red"              made by mello ";
+echo -e $white"\n";
+sleep 1
+echo "1 ) Input number one if you don't have php installed.";
+echo "2 ) Input number two if you already install php.";
+echo "99) Input this number to exit.";
+read -p "[mello] >"  act;
+
+if [ $act = 1 ] || [ $act = 1 ]
+then
+apt update -y && apt upgrade -y
+pkg install -y php
+clear
+sleep 1
+php 1.php
+clear
+php 2.php
+sleep 2
+clear
+php 3.php
+fi
+
+if [ $act = 2 ] || [ $act = 2 ]
+then
+apt update -y && apt upgrade -y
+clear
+php 1.php
+clear
+php 2.php
+sleep 2
+clear
+php 3.php
+fi
+
+if [ $act = 99 ] || [ $act = 99 ]
+then
+echo -e $red'dont judge my choices'
+sleep 1
+echo -e $red'without understand my reasons'
+sleep 2
+echo -e $red'NOTHING IMPOSSIBLE'
+sleep 1
+echo -e $red'Copyright (C) 2016 7uP Network'
+sleep 1
+echo -e $cyan'www.facebook.com/raiszhe'
+sleep 2
+exit
+fi
